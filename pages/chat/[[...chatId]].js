@@ -4,9 +4,15 @@ export default function ChatPage() {
   return (
     <div>
       <Head>
-        <title>NextJS Chat Page</title>
+        <title>New Chat</title>
       </Head>
-      <h1>Welcome to the chatId page</h1>
+      <div className="grid h-screen grid-cols-[260px_1fr]">
+        <div>sidebar</div>
+        <div className="bg-gray-700 flex flex-col">
+          <div className="flex-1">chat windwo</div>
+          <footer className="bg-gray-800 p-10"></footer>
+        </div>
+      </div>
     </div>
   );
 }
